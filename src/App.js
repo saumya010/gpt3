@@ -8,20 +8,23 @@ import {
   About,
   Possibility,
 } from "./containers";
+import "./App.css";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Navbar />
-      <Blog />
-      <About />
+    <div className="app">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
-      <Cta />
-      <Possibility />
+      <About />
       <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
       <Footer />
-    </>
+    </div>
   );
 };
 

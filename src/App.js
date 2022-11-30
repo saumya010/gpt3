@@ -1,14 +1,26 @@
 import React from "react";
-import { Article, Brand, Cta, Feature, Navbar } from "./components";
+import { Brand, Cta, Navbar } from "./components";
+import {
+  Header,
+  Footer,
+  Blog,
+  Features,
+  About,
+  Possibility,
+} from "./containers";
 
 const App = () => {
   return (
     <>
-      <Article />
+      <Header />
+      <Navbar />
+      <Blog />
+      <About />
       <Brand />
       <Cta />
-      <Feature />
-      <Navbar />
+      <Possibility />
+      <Features />
+      <Footer />
     </>
   );
 };

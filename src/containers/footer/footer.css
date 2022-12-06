@@ -54,6 +54,9 @@
   line-height: 18px;
   margin-bottom: 2rem;
 }
+.jsm__footer-container_logo p {
+  cursor: text;
+}
 .jsm__footer-copyright {
   color: #ffffff;
   font-size: 12px;

@@ -78,10 +78,13 @@
 .jsm__about-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 2rem;
 }
-/* Customizing feature component as per needs */
+
+.jsm__about-container__feature-one .jsm__features-container__feature-text {
+  max-width: 50%;
+}
+
 .jsm__about-container .gpt3__features-container__feature {
   flex: 1;
   margin: 1rem;
@@ -100,6 +103,9 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 0rem;
+  }
+  .jsm__about-container {
+    flex-wrap: wrap;
   }
 
   .jsm__about-heading p {
